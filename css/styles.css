@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Trocchi&display=swap');
 html{
     background-color: rgb(245, 208, 78);
 }
@@ -13,7 +14,7 @@ html{
     margin: auto;
     margin-top: 100px;
     background-color: white;
-    width: 400px;
+    width: 380px;
     height: 520px;
     border-radius: 15px;
     border-right: 8px solid black;
@@ -25,9 +26,53 @@ html{
     width: 40px;
     height: 40px;
     margin-top: 20px;
-    margin-left: 33px;
+    margin-left: 25px;
     
 }
 .imagen img{
-    border-radius: 16px;
+    border-radius: 15px;
 }
+.learning{
+    margin-top: 185px;
+    width: 80px;
+    height: 30px;
+    margin-left: 32px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: rgb(245, 208, 78);
+    font-family: Figtree;
+}
+.fecha{
+    margin-left: 30px;
+    font-family: Figtree;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.titulo{
+    margin-left: 30px;
+    font-family: Figtree;
+    font-weight: bold;
+    font-size: 24px;
+}
+.descripcion{
+    font-size: 16px;
+    color: gray;
+    text-justify: left;
+}
+.usuario{
+    display: flex;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Figtree;
+    
+}
+.avatar{
+    max-width: 30px;
+    max-height: 30px;
+    margin-top: 5px;
+    margin-right: 10px;
