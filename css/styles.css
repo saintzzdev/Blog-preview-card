@@ -1,0 +1,33 @@
+html{
+    background-color: rgb(245, 208, 78);
+}
+.attribution{ 
+    font-size: 11px; 
+    text-align: center;
+    padding-top: 30px; 
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
+.contenedor-principal{
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    width: 400px;
+    height: 520px;
+    border-radius: 15px;
+    border-right: 8px solid black;
+    border-bottom: 8px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+.imagen{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 33px;
+    
+}
+.imagen img{
+    border-radius: 15px;
+}
